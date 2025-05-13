@@ -6,27 +6,27 @@ const InfoSection = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">Unleash Your Curiosity</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">Liberte Sua Curiosidade</h2>
           <div className="w-20 h-1.5 bg-black mx-auto mb-6"></div>
           <p className="text-lg text-gray-600">
-            In a world filled with wonders, curiosity is the key that unlocks endless possibilities. 
-            We believe in the power of asking questions, exploring the unknown, and discovering the extraordinary.
+            Em um mundo cheio de maravilhas, a curiosidade é a chave que desbloqueia possibilidades infinitas.
+            Acreditamos no poder de fazer perguntas, explorar o desconhecido e descobrir o extraordinário.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold">Why Curiosity Matters</h3>
+            <h3 className="text-2xl font-bold">Por Que a Curiosidade Importa</h3>
             <p className="text-gray-600">
-              Curiosity drives innovation, powers learning, and fuels growth. It's the fundamental trait that has 
-              propelled humanity forward throughout history.
+              A curiosidade impulsiona a inovação, alimenta o aprendizado e estimula o crescimento. É o traço fundamental que
+              impulsionou a humanidade ao longo da história.
             </p>
             <div className="space-y-4">
               {[
-                "Sparks creativity and innovative thinking",
-                "Leads to deeper understanding and knowledge",
-                "Creates meaningful connections with the world",
-                "Transforms ordinary moments into extraordinary discoveries"
+                "Desperta a criatividade e o pensamento inovador",
+                "Leva a uma compreensão mais profunda e conhecimento",
+                "Cria conexões significativas com o mundo",
+                "Transforma momentos comuns em descobertas extraordinárias"
               ].map((item, index) => (
                 <div key={index} className="flex items-start">
                   <div className="flex-shrink-0 mr-3">

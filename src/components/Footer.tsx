@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">CURIOSO</h3>
-            <p className="mb-4">Unlocking curiosity, one discovery at a time.</p>
+            <p className="mb-4">Despertando a curiosidade, uma descoberta de cada vez.</p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-white transition-colors">
                 <span className="sr-only">Twitter</span>
@@ -28,42 +28,42 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-white mb-4">Company</h4>
+            <h4 className="font-semibold text-white mb-4">Empresa</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Press</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Sobre</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Carreiras</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Imprensa</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold text-white mb-4">Resources</h4>
+            <h4 className="font-semibold text-white mb-4">Recursos</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Documentação</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Central de Ajuda</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Privacidade</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Termos</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold text-white mb-4">Contact</h4>
+            <h4 className="font-semibold text-white mb-4">Contato</h4>
             <ul className="space-y-2">
-              <li>hello@curioso.com</li>
-              <li>+1 (555) 000-0000</li>
-              <li>123 Curiosity Lane</li>
-              <li>Discovery City, DC 10001</li>
+              <li>ola@curioso.com.br</li>
+              <li>+55 (11) 9999-9999</li>
+              <li>Rua da Curiosidade, 123</li>
+              <li>São Paulo, SP 01234-000</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {currentYear} Curioso. All rights reserved.</p>
+          <p>&copy; {currentYear} Curioso. Todos os direitos reservados.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
-              <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Privacidade</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Termos</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Cookies</a></li>
             </ul>
           </div>

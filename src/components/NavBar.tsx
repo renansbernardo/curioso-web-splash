@@ -31,18 +31,18 @@ const NavBar = () => {
         
         <div className="hidden md:flex space-x-8 items-center">
           <a href="#about" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-black' : 'text-white/80 hover:text-white'}`}>
-            About
+            Sobre
           </a>
           <a href="#features" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-black' : 'text-white/80 hover:text-white'}`}>
-            Features
+            Recursos
           </a>
           <a href="#contact" className={`font-medium transition-colors duration-300 ${isScrolled ? 'text-gray-800 hover:text-black' : 'text-white/80 hover:text-white'}`}>
-            Contact
+            Contato
           </a>
           <Button variant="outline" className={`rounded-full px-6 ${
             isScrolled ? 'bg-black text-white hover:bg-gray-800' : 'bg-white text-black hover:bg-gray-100'
           }`}>
-            Get Started
+            Começar
           </Button>
         </div>
         

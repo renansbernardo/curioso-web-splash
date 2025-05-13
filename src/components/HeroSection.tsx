@@ -32,15 +32,15 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-8 animate-fade-in animate-delay-200">
-          Unlock your curiosity. Discover something amazing today.
+          Liberte sua curiosidade. Descubra algo incrível hoje.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in animate-delay-300">
           <Button className="rounded-full px-8 py-6 text-lg bg-white text-black hover:bg-gray-200 transition-colors shadow-lg">
-            Explore Now
+            Explorar Agora
           </Button>
           <Button variant="outline" className="rounded-full px-8 py-6 text-lg border-white text-white hover:bg-white/10 transition-colors">
-            Learn More
+            Saiba Mais
           </Button>
         </div>
       </div>
