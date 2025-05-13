@@ -1,8 +1,29 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
+  const [clickCount, setClickCount] = useState(0);
+  const [leftButtonText, setLeftButtonText] = useState("Explorar Agora");
+
+  // Function to handle right button clicks
+  const handleRightButtonClick = () => {
+    const newCount = clickCount + 1;
+    setClickCount(newCount);
+    
+    if (newCount % 3 === 0) {
+      // Change left button text based on click count
+      const nextLevel = Math.floor(newCount / 3);
+      setLeftButtonText(`Mais ${nextLevel}`);
+    }
+  };
+
+  // Function to reset when clicking the left button
+  const handleLeftButtonClick = () => {
+    setClickCount(0);
+    setLeftButtonText("Explorar Agora");
+  };
+
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Background gradient */}
@@ -36,10 +57,17 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in animate-delay-300">
-          <Button className="rounded-full px-8 py-6 text-lg bg-white text-black hover:bg-gray-200 transition-colors shadow-lg">
-            Explorar Agora
+          <Button 
+            className="rounded-full px-8 py-6 text-lg bg-white text-black hover:bg-gray-200 transition-colors shadow-lg"
+            onClick={handleLeftButtonClick}
+          >
+            {leftButtonText}
           </Button>
-          <Button variant="outline" className="rounded-full px-8 py-6 text-lg border-white text-white hover:bg-white/10 transition-colors">
+          <Button 
+            variant="outline" 
+            className="rounded-full px-8 py-6 text-lg border-white text-white hover:bg-white/10 transition-colors"
+            onClick={handleRightButtonClick}
+          >
             Saiba Mais
           </Button>
         </div>
